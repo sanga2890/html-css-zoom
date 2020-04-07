@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+
+header{
+    text-align: right;
+    padding: 10px;
+    height:50px;
+}
+
+main .img-grid{
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 50px;
+    overflow-y: auto;
+
+}
+
+.img {
+    position: relative;
+    width: 230px;
+    height: 150px;
+    margin: 5px;
+
+}
+.img .fas {
+    padding-right: 5px;
+}
+
+main p {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left:0;
+    bottom:0;
+    padding: 3px;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 70px;
+    background: rgb(21,21,23);
+    background: linear-gradient(180deg, rgba(21,21,23,1) 2%, rgba(41,41,43,1) 68%, rgba(64,64,70,1) 100%);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer .fas {
+    font-size: 25px;
+    padding: 10px;
+}
+
+footer .fas:hover{
+    background-color: grey;
+}
+
+footer p {
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+.footer-right a{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.footer-right p{
+    padding-top: 20px;
+}
